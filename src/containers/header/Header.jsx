@@ -1,7 +1,7 @@
 function Header() {
   return (
     <div className="header" id="top">
-      <span className="logoRotate">JCR</span>
+      <span className="logoRotate">Copyright JCR</span>
       <ul className="navigation">
         <li className="liNavigation"><a href="#about">About</a></li>
         <li className="liNavigation"><a href="#contact">Contact</a></li>
