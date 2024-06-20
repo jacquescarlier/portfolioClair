@@ -68,12 +68,12 @@
           transform-origin: 50% 50%;
           width: 100%;
           height: 1px;
-          background-color: $font-color;
+          background-color: $bg-color;
           transition:  250ms;
         }
 
         &:hover {
-          color: $font-color;
+          color: $bg-color;
           &::after {
             transform: translateX(-50%) scaleX(1);
           }
