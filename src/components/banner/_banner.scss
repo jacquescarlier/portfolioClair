@@ -5,9 +5,15 @@
   position: relative;
   margin-top: 1em;
   margin-bottom: 38px;
-  opacity: 0.5;
+  opacity: 0.7;
   &:hover {
-   opacity: 0.9;
+   opacity: 0.8;
+   .banner-text {
+     span {
+      color: white;
+      opacity: 0.8;
+    }
+   }
   }
 
   @include phone {
@@ -46,8 +52,8 @@
     @include flex-justify-items-center;
     gap: 5px;
     @include fadein;
-    &:hover span {
-      color: white;
+    &:hover span{
+      color: $font1;
     }
 
     @include tab {
